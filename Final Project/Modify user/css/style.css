@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C9FDF2  ;
+ /* text-align: center;*/
+
+}
+/*nav bar*/
+/*=================================================================*/
+.logo {
+ 	padding: 10px 0px 0px 0px; 	 
+text-align: center;
+ 	  width: auto;
+}
+.logo {
+text-decoration: none;
+  height: 58px;
+  margin: 0px ;
+  color: white;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+  
+}
+.logo h2{
+	text-align: center;
+/*  font-family:"Comic Sans MS", cursive, sans-serif;*/
+}
+.topnav {
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #0041C2, #2554C7 28%, #2B65EC 80%, #1589FF 100%);*/
+  padding: 0px;
+  background-color: #00008B;
+    text-align: center;
+    box-shadow:1px 2px 8px 0px #6E7070; 
+    text-decoration: none;
+/*  height: 60px;*/
+
+}
+.nav-links{
+   float: left;
+   margin-top: 10px;
+   margin-right: 2px;
+   margin-bottom: 5px;
+   right: 0;
+   width: 10%;
+}
+
+.nav-links i {
+  background-color: #2B65EC;
+  border:1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  color: #f2f2f2;
+  text-align: center;
+  width: 30px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+/*  box-shadow: 0px 0px 2px 2px #2B65EC; */
+}
+
+.nav-links i:hover {
+  background-color: #0041C2;
+  color: white;
+  box-shadow:0px 0px 2px 2px #2B65EC; 
+
+
+
+}
+./*nav-links  #back img{
+width: 100px;
+}*/
+.nav-links  #back {
+  float: left;
+  margin-right: 50px;
+ 
+  border-radius: 15px;
+  color: black; 
+  /*background-image:  radial-gradient(circle, #555555,rgba(221,221,221,.5));*/
+
+  
+}
+.nav-links  #back:hover{
+  /*background-image:  radial-gradient(circle, #000066, rgba(0,0,204,1));*/
+  /*box-shadow: 0px 0px 2px 2px #0000CC;*/
+/*  background-image:url(../images/back-button2.png);*/
+  border: none; 
+
+}
+.logout {
+	float: right;
+	margin:20px 5px 0px 0px;
+	padding: 0px 20px 30px 0px;
+
+
+}
+.logout a{
+color: white;
+/*background-image:  radial-gradient(circle,rgba(221,221,221,1), white);*/
+  background-color: #1E84F7;
+ 
+  padding: 5px;  
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+   border:1px solid white;
+
+ }
+ .logout a:hover {
+ 	background-color: #0041C2;
+ 	 box-shadow:0px 0px 5px 2px #2B65EC;
+ }
+.nav-links a.active {
+  background-color: #000066;
+  color: white;
+
+}
+
+/*=================================================================*/
+.header
+.contact {
+	/*background-color: rgba(255,255,255,0.5);*/
+  background-color: #C9FDF2  ;
+	margin:0px 50px 50px 50px;
+	height:600px;
+	padding: 0px;
+}
+.Add_Clark{
+  margin: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  box-shadow:0px 1px 5px 0px gray
+  ;
+  border-radius: 10px;
+}.Add_Clark h4{
+  margin-bottom: 10px;
+}
+
+
+/*==Pop up menu==*/
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #4CAF50;
+  color: white;
+  padding:10px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  float: right;
+  /*position: fixed;*/
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  border-radius: 2px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+/*  position: fixed;*/
+  top: 15px;
+  bottom: 0;
+  right: 15px;
+  margin-top: 20px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  /* box-shadow:0px 1px 5px 0px gray
+  ;*/
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 600px;
+  padding: 10px;
+  background-color: white;
+/*  display:flex;*/
+    justify-content: center;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  align:center;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: DodgerBlue;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  color: white;
+}
+
+
+.Emp-table {
+background-color: rgba(255,255,255,.9);
+	padding: 30px;
+	margin:50px 50px 50px 50px;
+	  box-shadow:1px 2px 8px 0px #6E7070; 
+    border-radius: 10px;
+}
+.Emp-table  th{
+ background-color: #00008B;
+color:white;
+text-align: center;
+}
+.Emp-table  td{
+  text-align: center;
+}
+.Emp-table button {
+  background-color: DodgerBlue;
+  color: white;
+}
+.Emp-table .btn_delet,.btn_edit {
+  
+  height: auto;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100PX;
+  margin:0;
+  opacity: 0.8;
+}
+.Emp-table .btn_delet{
+  background-color: #E74C3C  ;
+}
+
+.Emp-table .btn_edit{
+  
+  background-color: DodgerBlue;
+  
+}
+.Emp-table .btn_delet:hover,.btn_edit:hover{
+  opacity: 1;
+}
+.edit_clerk{
+  margin: 10px;
+  /*border: 1px solid gray;*/
+  padding: 10px;
+  box-shadow:0px 1px 5px 0px gray
+  ;
+  border-radius: 10px;
+}
+
+
+.footer{
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #0041C2, #2554C7 28%, #2B65EC 80%, #1589FF 100%);*/
+  padding: 1px;
+  background-color: #00008B;
+    text-align: center;
+    box-shadow:1px 2px 8px 0px #6E7070;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%; 
+    
+}

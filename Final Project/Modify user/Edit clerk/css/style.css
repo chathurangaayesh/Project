@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ADF8F6;
+  
+
+}
+/*nav bar*/
+/*=================================================================*/
+.logo {
+ 	padding: 10px 0px 0px 0px; 	 
+text-align: center;
+ 	  width: auto;
+}
+.logo {
+text-decoration: none;
+  height: 58px;
+  margin: 0px ;
+  color: white;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+  
+}
+.logo h2{
+	text-align: center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #0041C2, #2554C7 28%, #2B65EC 80%, #1589FF 100%);*/
+  padding: 0px;
+  background-color: #00008B;
+    text-align: center;
+    box-shadow:1px 2px 8px 0px #6E7070; 
+    text-decoration: none;
+/*  height: 60px;*/
+
+}
+.nav-links{
+   float: left;
+   margin-top: 10px;
+   margin-right: 2px;
+   margin-bottom: 5px;
+   right: 0;
+   width: 10%;
+}
+
+.nav-links i {
+  background-color: #2B65EC;
+  border:1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  color: #f2f2f2;
+  text-align: center;
+  width: 30px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+/*  box-shadow: 0px 0px 2px 2px #2B65EC; */
+}
+
+.nav-links i:hover {
+  background-color: #0041C2;
+  color: white;
+  box-shadow:0px 0px 2px 2px #2B65EC; 
+
+
+
+}
+./*nav-links  #back img{
+width: 100px;
+}*/
+.nav-links  #back {
+  float: left;
+  margin-right: 50px;
+ 
+  border-radius: 15px;
+  color: black; 
+  /*background-image:  radial-gradient(circle, #555555,rgba(221,221,221,.5));*/
+
+  
+}
+.nav-links  #back:hover{
+  /*background-image:  radial-gradient(circle, #000066, rgba(0,0,204,1));*/
+  /*box-shadow: 0px 0px 2px 2px #0000CC;*/
+/*  background-image:url(../images/back-button2.png);*/
+  border: none; 
+
+}
+.logout {
+	float: right;
+	margin:20px 5px 0px 0px;
+	padding: 0px 20px 30px 0px;
+
+
+}
+.logout a{
+color: white;
+/*background-image:  radial-gradient(circle,rgba(221,221,221,1), white);*/
+  background-color: #1E84F7;
+ 
+  padding: 5px;  
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+   border:1px solid white;
+
+ }
+ .logout a:hover {
+ 	background-color: #0041C2;
+ 	 box-shadow:0px 0px 5px 2px #2B65EC;
+ }
+.nav-links a.active {
+  background-color: #000066;
+  color: white;
+
+}
+
+/*=================================================================*/
+.header{
+  text-align: center;
+}
+.contact {
+	/*background-color: rgba(255,255,255,0.5);*/
+	margin:0px 50px 50px 50px;
+	height:600px;
+	padding: 0px;
+}
+/* Style the search field */
+
+.edit-form {
+background-color: rgba(255,255,255,.9);
+	padding: 30px;
+	margin:50px 50px 50px 50px;
+	  box-shadow:1px 2px 8px 0px #6E7070; 
+    border-radius: 10px;
+
+}
+.edit-form table{
+  width: 100%;
+  margin: 20px; 
+}
+.edit-form form{
+   /*padding: 30px;*/
+  margin:0px 20px 0px 20px;
+    box-shadow:1px 2px 8px 0px #6E7070; 
+    border-radius: 10px;
+}
+.edit-form p {
+/*width: 100%;*/
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*.edit-form button {
+  background-color: #BA17ED;
+  color: white;
+}*/
+.edit-form td{
+  margin-left: 20px;
+}
+input[type=text], select, input[type=password] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /*box-sizing: border-box;*/
+  margin:20px;
+  /*resize: vertical;*/
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input[type=text]:focus, input[type=password]:focus{
+  box-shadow:1px 2px 8px 0px gray;
+  border: none;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.footer{
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #0041C2, #2554C7 28%, #2B65EC 80%, #1589FF 100%);*/
+  padding: 1px;
+  background-color: #00008B;
+    text-align: center;
+    box-shadow:1px 2px 8px 0px #6E7070;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%; 
+    
+}s

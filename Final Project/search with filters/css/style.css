@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ADF8F6;
+  text-align: center;
+
+}
+/*nav bar*/
+/*=================================================================*/
+.logo {
+ 	padding: 10px 0px 0px 0px; 	 
+text-align: center;
+ 	  width: auto;
+}
+.logo {
+text-decoration: none;
+  height: 58px;
+  margin: 0px ;
+  color: white;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+  
+}
+.logo h2{
+	text-align: center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #0041C2, #2554C7 28%, #2B65EC 80%, #1589FF 100%);*/
+  padding: 0px;
+  background-color: #00008B;
+    text-align: center;
+    box-shadow:1px 2px 8px 0px #6E7070; 
+    text-decoration: none;
+/*  height: 60px;*/
+
+}
+.nav-links{
+   float: left;
+   margin-top: 10px;
+   margin-right: 2px;
+   margin-bottom: 5px;
+   right: 0;
+   width: 10%;
+}
+
+.nav-links i {
+  background-color: #2B65EC;
+  border:1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  color: #f2f2f2;
+  text-align: center;
+  width: 30px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+/*  box-shadow: 0px 0px 2px 2px #2B65EC; */
+}
+
+.nav-links i:hover {
+  background-color: #0041C2;
+  color: white;
+  box-shadow:0px 0px 2px 2px #2B65EC; 
+
+
+
+}
+./*nav-links  #back img{
+width: 100px;
+}*/
+.nav-links  #back {
+  float: left;
+  margin-right: 50px;
+ 
+  border-radius: 15px;
+  color: black; 
+  /*background-image:  radial-gradient(circle, #555555,rgba(221,221,221,.5));*/
+
+  
+}
+.nav-links  #back:hover{
+  /*background-image:  radial-gradient(circle, #000066, rgba(0,0,204,1));*/
+  /*box-shadow: 0px 0px 2px 2px #0000CC;*/
+/*  background-image:url(../images/back-button2.png);*/
+  border: none; 
+
+}
+.logout {
+	float: right;
+	margin:20px 5px 0px 0px;
+	padding: 0px 20px 30px 0px;
+
+
+}
+.logout a{
+color: white;
+/*background-image:  radial-gradient(circle,rgba(221,221,221,1), white);*/
+  background-color: #1E84F7;
+ 
+  padding: 5px;  
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+   border:1px solid white;
+
+ }
+ .logout a:hover {
+ 	background-color: #0041C2;
+ 	 box-shadow:0px 0px 5px 2px #2B65EC;
+ }
+.nav-links a.active {
+  background-color: #000066;
+  color: white;
+
+}
+
+/*=================================================================*/
+.header
+.contact {
+	/*background-color: rgba(255,255,255,0.5);*/
+	margin:0px 50px 50px 50px;
+	height:600px;
+	padding: 0px;
+   background-color: #ADF8F6;
+}
+/* Style the search field */
+
+
+.Emp_details {
+/*background-color: rgba(193, 197, 197,.2);*/
+background-color: rgba(30, 196, 181,.3);
+	padding: 30px;
+	margin:0px 50px 50px 50px;
+	  box-shadow:1px 2px 8px 0px #6E7070; 
+    border-radius: 10px;
+
+}
+.Emp_details table{
+ /*background-color: #00008B;
+color:white;*/
+/*background-color: rgba(30, 196, 181,.3);*/
+background-color: rgba(193, 197, 197,.2);
+font-size:  16px;
+padding: 5px;
+margin-top: 5px;
+}
+.Emp_details td{
+  border-left : 1px solid white;
+  padding: 20px;
+  background-color: rgba(30, 196, 181,.7);
+}
+/*.profile .table {
+  min-height: 60px;
+  color: ;
+  font-size: 15px;
+  background-color: rgba(30, 196, 181,.2);
+  border-radius: 10px;
+  text-align: center;
+}*/
+.profile img{
+  float: right;
+   max-width: 100px;
+   margin-bottom: 10px;
+   background-color: white;
+   padding: 5px;
+   border-radius: 5px;
+ /*  margin: 10px;*/
+}
+
+
+
+
+.footer{
+  overflow: hidden;
+  /*background-image: linear-gradient(to right, #0041C2, #2554C7 28%, #2B65EC 80%, #1589FF 100%);*/
+  padding: 1px;
+  background-color: #290B79  ;
+    text-align: center;
+    box-shadow:1px 2px 8px 0px #6E7070;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%; 
+   color: white;
+    
+}

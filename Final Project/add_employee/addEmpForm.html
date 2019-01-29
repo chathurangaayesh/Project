@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+ <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" type = "text/css" href = "addEmpStyleSheet.css" />
+ 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<title>Add Employee</title>
+	<style></style>
+ </head>
+ 
+<body>
+
+
+<div class="topnav">
+	<div class="nav-links">
+  <a id="back"  href="#home"><i class="fa fa-arrow-left"></i></a>
+
+  <!-- <a class="active" href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a  href="#about">About</a> -->
+  </div>
+	<div class="logo"><a href="admin_page.html"><h2>Southern Province Engineering Services</h2></a>
+  </div>
+  
+
+
+</div>
+
+  <div class="container">
+
+	<h1 align="center">Add Employee</h1>
+    <p>Please fill this form to add employee to the system</p>
+    <hr>
+ <form action="addemp.php" method="POST">
+<div class="row">
+    <label for="empName"><b>First Name</b></label>
+    <input type="text" placeholder="Type emplyee name here" name="empFName" required/>
+	
+	<label for="empName"><b>Last Name</b></label>
+	
+    <input  type="text" placeholder="Type emplyee name here" name="empLName" />
+
+    <label for="empID"><b>NIC Number</b></label>
+    <input type="text" placeholder="Type employee National Identity Card number here" name="empID" required/>
+	
+	<label for="empName"><b>Contact No (Mobile)</b></label>
+    <input type="text" placeholder="Type emplyee name here" name="empMC" required/>
+	
+	<label for="empName"><b>Contact No (Home)</b></label>
+    <input type="text" placeholder="Type emplyee name here" name="empHC"/>
+
+	<label for="empDob"><b>Date Of Birth - </b></lable>
+	<input  type="date" placeholder="mm/dd/yyyy" name="empDOB"><br>
+  
+    <label for="empAdd"><b>Address</b></label>
+    <input type="text" placeholder="Type employee address here" name="empAdd" required>
+	</div>
+	<div class="row">
+	<label for="empTrAppDate"><b>Tranning Appointment Date - </b></label>
+	<input type= "date" placeholder="mm/dd/yyyy" name="empTrAppDate" required><br><br>
+	
+	<label for="empAppDate"><b>Permenent Appointment Date - </b></label>
+	<input type="date" placeholder="mm/dd/yyyy" name="empAppDate"><br><br>
+  
+  	<label for="empWOP" name="empRetDate"><b>WOP Number</b></label>
+	<input type="text" placeholder="Type widow and orphan pension identification number here" name="empWOP"></input>
+	
+	<label for="empDes"><b>Designation</b></label>
+    <input type="text" placeholder="Type emplyee designation here" name="empDes">
+
+    <label for="empLevel"><b>Grades</b></label><br>
+	<input type="radio" name="empLevel" value="T" checked="">Trainee</input><br>
+    <input type="radio" name="empLevel" value="1">Level I</input><br>
+	<input type="radio" name="empLevel" value="2">Level II</input><br>
+	<input type="radio" name="empLevel" value="3">Level III</input><br>
+	<br><br>
+
+    <label for="empLoc"><b>Service Location</b></label>
+    <input type="text" placeholder="Type employee current service branch here" name="empLoc">
+</div>
+    <hr>
+	
+	<input type="submit" value="Register"  name="addEmpSubmit"/>
+<hr>
+
+ </div>
+</form>
+<div class="footer">
+  <p> CS2018g12 @University of Ruhuna</p>
+</div>
+</body>
+</html>
